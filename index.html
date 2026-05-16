@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young Group</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="#home" class="logo">Young Group</a>
+
+            <nav class="nav-links">
+                <a href="#home" data-i18n="navHome">Home</a>
+                <a href="#about" data-i18n="navAbout">About</a>
+                <a href="#research" data-i18n="navResearch">Research</a>
+                <a href="#members" data-i18n="navMembers">Members</a>
+                <a href="#publications" data-i18n="navPublications">Publications</a>
+                <a href="#news" data-i18n="navNews">News</a>
+                <a href="#link" data-i18n="navLink">Link</a>
+            </nav>
+
+            <button class="lang-toggle" id="languageToggle" type="button">
+                中文
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow" data-i18n="eyebrow">
+                Explore the mysteries of the universe, investigate the infinity of humanity
+            </p>
+
+            <h1>Young Group</h1>
+
+            <p class="subtitle" data-i18n="heroSubtitle">
+                Nature revolves in a vigorous manner and a man of honour should model himself on nature.
+            </p>
+
+            <p class="description" data-i18n="heroDesc">
+                We study physical and chemical systems using analytical theory, numerical simulation,
+                and first-principles computational approaches.
+            </p>
+        </div>
+    </section>
+
+
+    <main class="container">
+
+        <!-- About -->
+        <section id="about" class="section">
+            <h2 data-i18n="aboutTitle">About Us</h2>
+
+            <p data-i18n="aboutP1">
+                Young Group is a theoretical and computational research group working at the interface
+                of physics, chemistry, and materials science.
+            </p>
+
+            <p data-i18n="aboutP2">
+                Our research focuses on understanding microscopic mechanisms and emergent phenomena
+                in condensed matter systems, molecular systems, and fluids through rigorous modeling
+                and high-performance computation.
+            </p>
+        </section>
+
+
+        <!-- Research -->
+        <section id="research" class="section">
+            <h2 data-i18n="researchTitle">Research Interests</h2>
+
+            <div class="grid">
+
+                <div class="card">
+                    <h3 data-i18n="research1Title">Theoretical Physics and Chemistry</h3>
+                    <p data-i18n="research1Text">
+                        We develop theoretical models for quantum, statistical, and thermodynamic
+                        properties of physical and chemical systems.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 data-i18n="research2Title">Computational Condensed Matter Physics</h3>
+                    <p data-i18n="research2Text">
+                        We use first-principles calculations, electronic-structure theory, and numerical
+                        simulations to investigate materials, interfaces, and phase behavior.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 data-i18n="research3Title">Fluid Theory</h3>
+                    <p data-i18n="research3Text">
+                        We study continuum theories, interfacial phenomena, transport processes,
+                        hydrodynamic stability, and non-equilibrium behavior in fluids.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 data-i18n="research4Title">Multiscale Modeling</h3>
+                    <p data-i18n="research4Text">
+                        We connect microscopic interactions with macroscopic observables through
+                        analytical theory, molecular simulation, and computational modeling.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Members -->
+        <section id="members" class="section">
+            <h2 data-i18n="membersTitle">Team Members</h2>
+
+            <div class="member-grid">
+
+                <div class="member-card">
+                    <img src="images/yz.png" alt="Principal Investigator">
+                    <h3>MarcoYoung</h3>
+                    <p class="role" data-i18n="piRole">Principal Investigator</p>
+                    <p data-i18n="piText">
+                        Research interests: Theoretical physics and chemistry, computational condensed
+                        matter physics and fluid theory.
+                    </p>
+                    <p>
+                        <span data-i18n="emailLabel">Email:</span>
+                        <a href="mailto:1986168406@qq.com">1986168406@qq.com</a>
+                    </p>
+                </div>
+
+                <div class="member-card">
+                    <img src="images/lzy.jpg" alt="Team Member">
+                    <h3>Zhuoyue Lu</h3>
+                    <p class="role" data-i18n="member1Role">Investigator</p>
+                    <p data-i18n="member1Text">
+                        Research interests: Scanning tunneling microscopy and two-dimensional materials science.                    
+                    </p>
+                    <p>
+                        <span data-i18n="emailLabel">Email:</span>
+                        <a href="mailto:1040043615@qq.com">1040043615@qq.com</a>
+                    </p>
+                </div>
+
+                <div class="member-card">
+                    <img src="images/zyl.jpg" alt="Team Member">
+                    <h3>Yilun Zou</h3>
+                    <p class="role" data-i18n="member2Role">Investigator</p>
+                    <p data-i18n="member2Text">
+                        Research interests: Control theory and nonlinear systems.
+                    </p>
+                    <p>
+                        <span data-i18n="emailLabel">Email:</span>
+                        <a href="mailto:3247581757@qq.com">3247581757@qq.com</a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Publications -->
+        <section id="publications" class="section">
+            <h2 data-i18n="publicationsTitle">Selected Publications</h2>
+
+            <div class="publication-list">
+
+                <div class="publication">
+                    <p class="pub-title" data-i18n="pub1Title">
+                        First-principles study of electronic structure and phase stability in correlated materials
+                    </p>
+                    <p class="pub-authors" data-i18n="pub1Authors">
+                        Young Y., Member A., Member B.
+                    </p>
+                    <p class="pub-journal" data-i18n="pub1Journal">
+                        Journal of Computational Condensed Matter Physics, 2025.
+                    </p>
+                    <p>
+                        <a href="#" target="_blank" data-i18n="paperLink">Paper</a> |
+                        <a href="#" target="_blank" data-i18n="codeLink">Code</a>
+                    </p>
+                </div>
+
+                <div class="publication">
+                    <p class="pub-title" data-i18n="pub2Title">
+                        Continuum modeling of interfacial transport in complex fluids
+                    </p>
+                    <p class="pub-authors" data-i18n="pub2Authors">
+                        Young Y., Member C.
+                    </p>
+                    <p class="pub-journal" data-i18n="pub2Journal">
+                        Physical Review Fluids, 2024.
+                    </p>
+                    <p>
+                        <a href="#" target="_blank" data-i18n="paperLink">Paper</a>
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- News -->
+        <section id="news" class="section">
+            <h2 data-i18n="newsTitle">News</h2>
+
+            <div class="news-list">
+
+                <div class="news-item">
+                    <span class="news-date">2025-01-15</span>
+                    <p data-i18n="news1">
+                        Young Group website is officially launched.
+                    </p>
+                </div>
+
+                <div class="news-item">
+                    <span class="news-date">2024-12-20</span>
+                    <p data-i18n="news2">
+                        A group member presented recent work at an academic conference.
+                    </p>
+                </div>
+
+                <div class="news-item">
+                    <span class="news-date">2024-09-01</span>
+                    <p data-i18n="news3">
+                        New students joined Young Group. Welcome!
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Link -->
+        <section id="link" class="section">
+            <h2 data-i18n="linkTitle">Link</h2>
+
+            <p data-i18n="linkP">
+                We welcome discussions and collaborations in theoretical physics, theoretical chemistry,
+                computational condensed matter physics, and fluid theory.
+            </p>
+
+            <div class="link-box">
+                <p>
+                    <strong data-i18n="addressLabel">Address:</strong>
+                    University of Science and Technology of China
+                </p>
+                <p>
+                    <strong data-i18n="emailLabel">Email:</strong>
+                    <a href="mailto:1986168406@qq.com">1986168406@qq.com</a>
+                </p>
+                <p>
+                    <strong data-i18n="wcdlink">Wcdlink:</strong>
+                    <a href="https://www.hfnl.ustc.edu.cn/main.htm" target="_blank">https://www.hfnl.ustc.edu.cn/main.htm</a>
+                </p>
+                <p>
+                    <strong data-i18n="LiteratureSearch">Literature Search:</strong>
+                    <a href="https://xs.cntpj.com" target="_blank">https://xs.cntpj.com</a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p data-i18n="footerRights">© 2025 Young Group. All rights reserved.</p>
+        <p data-i18n="footerUpdated">Last updated: 2025</p>
+    </footer>
+
+
+    <!-- Language Switch Script -->
+    <script>
+        const translations = {
+            en: {
+                navHome: "Home",
+                navAbout: "About",
+                navResearch: "Research",
+                navMembers: "Members",
+                navPublications: "Publications",
+                navNews: "News",
+                navLink: "Link",
+
+                eyebrow: "Explore the mysteries of the universe, investigate the infinity of humanity",
+                heroSubtitle: "Nature revolves in a vigorous manner and a man of honour should model himself on nature",
+                heroDesc: "We study physical and chemical systems using analytical theory, numerical simulation, and first-principles computational approaches.",
+
+                aboutTitle: "About Us",
+                aboutP1: "Young Group is a theoretical and computational research group working at the interface of physics, chemistry, and materials science.",
+                aboutP2: "Our research focuses on understanding microscopic mechanisms and emergent phenomena in condensed matter systems, molecular systems, and fluids through rigorous modeling and high-performance computation.",
+
+                researchTitle: "Research Interests",
+                research1Title: "Theoretical Physics and Chemistry",
+                research1Text: "We develop theoretical models for quantum, statistical, and thermodynamic properties of physical and chemical systems.",
+                research2Title: "Computational Condensed Matter Physics",
+                research2Text: "We use first-principles calculations, electronic-structure theory, and numerical simulations to investigate materials, interfaces, and phase behavior.",
+                research3Title: "Fluid Theory",
+                research3Text: "We study continuum theories, interfacial phenomena, transport processes, hydrodynamic stability, and non-equilibrium behavior in fluids.",
+                research4Title: "Multiscale Modeling",
+                research4Text: "We connect microscopic interactions with macroscopic observables through analytical theory, molecular simulation, and computational modeling.",
+
+                membersTitle: "Team Members",
+                piRole: "Principal Investigator",
+                piText: "Research interests: Theoretical physics and chemistry, computational condensed matter physics and fluid theory.",
+                member1Role: "Investigator",
+                member1Text: "Research interests: Scanning tunneling microscopy and two-dimensional materials science.",
+                member2Role: "Investigator",
+                member2Text: "Research interests: Control theory and nonlinear systems.",
+
+                publicationsTitle: "Selected Publications",
+                pub1Title: "First-principles study of electronic structure and phase stability in correlated materials",
+                pub1Authors: "Young Y., Member A., Member B.",
+                pub1Journal: "Journal of Computational Condensed Matter Physics, 2025.",
+                pub2Title: "Continuum modeling of interfacial transport in complex fluids",
+                pub2Authors: "Young Y., Member C.",
+                pub2Journal: "Physical Review Fluids, 2024.",
+                paperLink: "Paper",
+                codeLink: "Code",
+
+                newsTitle: "News",
+                news1: "Young Group website is officially launched.",
+                news2: "A group member presented recent work at an academic conference.",
+                news3: "New students joined Young Group. Welcome!",
+
+                linkTitle: "Link",
+                linkP: "We welcome discussions and collaborations in theoretical physics, theoretical chemistry, computational condensed matter physics, and fluid theory.",
+                addressLabel: "Address:",
+                emailLabel: "Email:",
+                wcdlink: "Hefei National Research Center for Microscale Material Science:",
+                LiteratureSearch: "Literature Search:",
+
+                footerRights: "© 2025 Young Group. All rights reserved.",
+                footerUpdated: "Last updated: 2025"
+            },
+
+            zh: {
+                navHome: "首页",
+                navAbout: "简介",
+                navResearch: "研究方向",
+                navMembers: "成员",
+                navPublications: "论文",
+                navNews: "新闻",
+                navLink: "链接",
+
+                eyebrow: "探宇宙之奥义，究人类之无穷",
+                heroSubtitle: "天行健，君子以自强不息",
+                heroDesc: "我们结合解析理论、数值模拟和第一性原理计算方法，研究物理与化学体系中的结构、动力学和涌现行为。",
+
+                aboutTitle: "课题组简介",
+                aboutP1: "Young Group 是一个面向理论与计算研究的课题组，研究领域交叉于物理、化学和材料科学。",
+                aboutP2: "我们关注凝聚态体系、分子体系与流体体系中的微观机制和宏观涌现现象，并通过严格的理论建模与高性能计算进行研究。",
+
+                researchTitle: "研究方向",
+                research1Title: "理论物理与化学",
+                research1Text: "发展用于描述物理与化学体系量子性质、统计性质和热力学性质的理论模型。",
+                research2Title: "计算凝聚态物理",
+                research2Text: "基于第一性原理计算、电子结构理论和数值模拟，研究材料、界面、相变与输运性质。",
+                research3Title: "流体理论",
+                research3Text: "研究连续介质理论、界面现象、输运过程、流体稳定性以及非平衡流体现象。",
+                research4Title: "多尺度建模",
+                research4Text: "通过解析理论、分子模拟和计算建模，建立微观相互作用与宏观可观测量之间的联系。",
+
+                membersTitle: "团队成员",
+                piRole: "首席研究员",
+                piText: "研究方向：理论物理与化学，计算凝聚态物理与流体理论。",
+                member1Role: "研究员",
+                member1Text: "研究方向：扫描隧道显微学与二维材料学。",
+                member2Role: "研究员",
+                member2Text: "研究方向：控制理论与非线性系统。",
+
+                publicationsTitle: "代表性论文",
+                pub1Title: "关联材料中电子结构与相稳定性的第一性原理研究",
+                pub1Authors: "Young Y., Member A., Member B.",
+                pub1Journal: "Journal of Computational Condensed Matter Physics, 2025.",
+                pub2Title: "复杂流体界面输运的连续介质建模",
+                pub2Authors: "Young Y., Member C.",
+                pub2Journal: "Physical Review Fluids, 2024.",
+                paperLink: "论文",
+                codeLink: "代码",
+
+                newsTitle: "新闻",
+                news1: "Young Group 网站正式上线。",
+                news2: "课题组成员在学术会议上报告近期研究工作。",
+                news3: "新成员加入 Young Group，欢迎！",
+
+                linkTitle: "链接",
+                linkP: "欢迎在理论物理、理论化学、计算凝聚态物理和流体理论等方向开展交流与合作。",
+                addressLabel: "地址：",
+                emailLabel: "邮箱：",
+                wcdlink: "合肥微尺度物质科学国家研究中心：",
+                LiteratureSearch: "文献查询:",
+
+                footerRights: "© 2025 Young Group. 保留所有权利。",
+                footerUpdated: "最后更新：2025"
+            }
+        };
+
+        const languageToggle = document.getElementById("languageToggle");
+        let currentLanguage = localStorage.getItem("siteLanguage") || "en";
+
+        function setLanguage(language) {
+            currentLanguage = language;
+            const dict = translations[language];
+
+            document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
+
+            document.querySelectorAll("[data-i18n]").forEach(element => {
+                const key = element.getAttribute("data-i18n");
+                if (Object.prototype.hasOwnProperty.call(dict, key)) {
+                    element.textContent = dict[key];
+                }
+            });
+
+            languageToggle.textContent = language === "en" ? "中文" : "English";
+            languageToggle.setAttribute(
+                "aria-label",
+                language === "en" ? "Switch to Chinese" : "切换到英文"
+            );
+
+            localStorage.setItem("siteLanguage", language);
+        }
+
+        languageToggle.addEventListener("click", () => {
+            setLanguage(currentLanguage === "en" ? "zh" : "en");
+        });
+
+        setLanguage(currentLanguage);
+    </script>
+
+</body>
+</html>
