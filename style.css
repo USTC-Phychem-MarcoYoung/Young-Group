@@ -1,4 +1,4 @@
-﻿/* =========================
+/* =========================
    Young Group Academic Style
    ========================= */
 
@@ -221,8 +221,8 @@ a:hover {
 .card p {
     color: var(--muted);
     font-size: 16.5px;
+    min-height: 68px;
 }
-
 /* =========================
    Members
    ========================= */
@@ -470,4 +470,20 @@ a:hover {
     .link-box {
         padding: 22px;
     }
+}
+#research .research-media {
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 16px;
+    background: #000;
+}
+
+#research .wide-media {
+    height: 260px;
+    object-fit: contain;
+    background: #ffffff;
+    border: 1px solid var(--line);
 }
